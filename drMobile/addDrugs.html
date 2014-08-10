@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dr. Mobile</title>
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+    <link href="css/drMobile.css" rel="stylesheet">
+    <!-- Custom SELECT CSS -->
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" class="index">
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="drMobile.html">Dr. Mobile</a>
+            </div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#">History</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="drugs.html">Drugs</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#">Reminder</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#">Emergency Contact</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+	<!-- Header -->
+   <div class="contenedor">
+        <div class="container">
+        <h2>Add Drugs</h2>
+        <div class="control-group">
+            <label class="control-label" for="">Medicine:</label>
+            <div class="row-fluid controls">
+                <!-- CUSTOM SELECT -->
+                <select class="form-control input-medium" id="select-medicine" data-live-search="true">
+                    <option value="">Select one</option>
+                    <!-- Diabetes insípida -->
+                    <option value="">DESMOPRESINA MEDE EFG</option>
+                    <option value="">ESIDREX Comp</option>
+                    <option value="">HIDROCLOROTIAZIDA KERN PHARMA Comp</option>
+                    <option value="">HIDROSALURETIL Comp</option>
+                    <option value="">HIGROTONA Comp</option>
+                    <option value="">MINURIN</option>
+                    <!-- Diabetes mellitus tipo 2 -->
+                    <option value="">ACARBOSA QUALIGEN Comp</option>
+                    <option value="">ACARBOSA QUALIGEN Comp</option>
+                    <option value="">ACARBOSA APOTEX Comp</option>
+                    <option value="">ACARBOSA FARMALIDER Comp</option>
+                    <option value="">ACARBOSA GEPREM</option>
+                    <option value="">ACARBOSA MYLAN Comp</option>
+                    <option value="">ACARBOSA QUALITEC Comp</option>
+                    <option value="">ACARBOSA TARBIS Comp</option>
+                    <option value="">ACARBOSA TECNIGEN Comp</option>
+                    <option value="">ACTIVECOMPLEX MAGNESIO Comp</option>
+                    <option value="">ACTOS Comp</option>
+                    <option value="">AMARYL Comp</option>
+                    <option value="">BYETTA Sol</option>
+                    <option value="">BYDUREON</option>
+                    <option value="">COMPETACT Comp</option>
+                    <option value="">DIADISTANE Comp</option>
+                    <option value="">DIAMICRON</option>
+                    <option value="">DAONIL Comp</option>
+                </select>            
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="">Route:</label>
+            <div class="controls">
+                <select class="form-control input-medium">
+                    <option value="">Select one</option>
+                    <option value="">Oral</option>
+                    <option value="">Topical</option>
+                    <option value="">Inhalation</option>
+                    <option value="">Injection</option>
+                </select>  
+            </div>
+        </div>
+
+  
+        <div class="control-group">
+            <label class="control-label" for="">Unit:</label>
+            <div class="controls">
+                <select class="form-control input-medium">
+                    <option value="">Select one</option>
+                    <option value="">mg</option>
+                    <option value="">mcg</option>
+                    <option value="">ml</option>
+                    <option value="">unit</option>
+                    <option value="">oz</option>
+                </select>            
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="">Quantity:</label>
+            <div class="controls">
+                <input type="number"  min="1" max="100" required="" id="" name="" type="text" class="form-control" placeholder="0" class="input-medium" required="">
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="">Form:</label>
+            <div class="controls">
+                <select class="form-control input-medium">
+                    <option value="">Select one</option>
+                    <option value="">Pills/tablets</option>
+                    <option value="">Capsules</option>
+                    <option value="">Injection</option>
+                    <option value="">Liquids/Syrups</option>
+                    <option value="">Lozenges</option>
+                    <option value="">Inhalants</option>
+                    <option value="">Creams/Ointments</option>
+                    <option value="">Suppositories</option>
+                    <option value="">Aerosol</option>
+                    <option value="">Pessary</option>
+                </select> 
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="">Side Effects:</label>
+            <div class="controls">
+                <textarea name="" rows="10" cols="40" class="form-control" class="input-medium" placeholder="Side Effects..."></textarea>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="">Notes:</label>
+            <div class="controls">
+                <textarea name="" rows="10" cols="40" class="form-control" class="input-medium" placeholder="Notes..."></textarea>
+            </div>
+        </div>
+        <a href=""><button type="button" class="btn btn-default btn-lg addbtn"></a>
+            <span class="glyphicon glyphicon-minus-sign"></span> Cancel
+        </button>
+        <a href=""><button type="button" class="btn btn-default btn-lg addbtn"></a>
+            <span class="glyphicon glyphicon-plus-sign"></span> Save
+        </button>
+        </div>
+        
+    </div>
+   
+    
+	
+	<!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Boostrap Custom Select -->
+    <script src="js/bootstrap-select.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/drMobile.js"></script>
+    <!-- CORE Select JavaScript -->
+    <script src="js/customSelect.js"></script>
+</body>
+</html>
